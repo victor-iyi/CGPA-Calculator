@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".SavedGPs">
+
+    <include layout="@layout/app_bar" android:id="@+id/app_bar"/>
+
+    <!-- Container Tabhost -->
+    <TabHost
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:id="@+id/tabhost" android:layout_below="@+id/app_bar"
+            android:layout_alignParentLeft="true" android:layout_alignParentStart="true"
+            android:layout_marginLeft="0dp" android:layout_marginStart="56dp">
+        <LinearLayout
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                android:orientation="vertical">
+            <TabWidget android:id="@android:id/tabs"
+                       android:layout_width="match_parent" android:layout_height="wrap_content">
+            </TabWidget>
+            <FrameLayout android:id="@android:id/tabcontent"
+                         android:layout_width="match_parent" android:layout_height="match_parent">
+
+                <!-- Save GPA layout -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:orientation="vertical" android:id="@+id/tabSaveGPAList">
+
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:text="@string/empty_gpaText" android:id="@+id/tvEmptyGPA"
+                              android:visibility="gone" android:layout_margin="@dimen/twenty"
+                              android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <ListView android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/lvListGPA"></ListView>
+
+                </LinearLayout>
+
+                <!-- Save CGPA layout -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:orientation="vertical" android:id="@+id/tabSaveCGPAList">
+
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:text="@string/empty_cgpaText" android:id="@+id/tvEmptyCGPA"
+                              android:visibility="gone" android:layout_margin="@dimen/twenty"
+                              android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <ListView android:layout_width="match_parent" android:layout_height="match_parent"
+                              android:id="@+id/lvListCGPA"></ListView>
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</RelativeLayout>

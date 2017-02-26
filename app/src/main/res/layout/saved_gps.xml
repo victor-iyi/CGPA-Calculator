@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".SavedGPs">
+
+    <include layout="@layout/app_bar" android:id="@+id/app_bar"/>
+
+    <!-- GPA Container -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical" android:layout_below="@id/app_bar"
+                  android:id="@+id/llGPAContainer">
+        <include layout="@layout/save_gpa_layout"/>
+    </LinearLayout>
+
+    <!-- CGPA Container -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical" android:layout_below="@id/app_bar"
+                  android:visibility="gone" android:id="@+id/llCGPAContainer">
+        <include layout="@layout/save_cgpa_layout"/>
+    </LinearLayout>
+
+    <!-- Result Display -->
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="vertical" android:layout_alignParentBottom="true"
+                  android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:id="@+id/tvShowResult" android:textColor="@color/profile_background"
+                  android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    </LinearLayout>
+</RelativeLayout>

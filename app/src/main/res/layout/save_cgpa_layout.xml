@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent"
+            android:id="@+id/svCGPAlayout" android:layout_marginBottom="40dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:orientation="vertical" android:padding="@dimen/margin">
+
+        <!-- 100 level -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical" android:id="@+id/ll100L"
+                      android:layout_marginTop="@dimen/twenty">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="@string/level_100" android:layout_gravity="center" android:textSize="19sp"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="horizontal" android:weightSum="100"
+                          android:id="@+id/ll100L1">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="30" android:text="@string/first_semester"
+                          android:textColor="@color/textcolor"
+                          android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="70" android:id="@+id/tv100L1"
+                          android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="horizontal" android:weightSum="100"
+                          android:id="@+id/ll100L2">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="30" android:text="@string/second_semester"
+                          android:textColor="@color/textcolor"
+                          android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="70" android:id="@+id/tv100L2"
+                          android:gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 200 level -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical" android:id="@+id/ll200L"
+                      android:layout_marginTop="@dimen/twenty">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="@string/level_200" android:layout_gravity="center" android:textSize="19sp"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="horizontal" android:weightSum="100"
+                          android:id="@+id/ll200L1">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="30" android:text="@string/first_semester"
+                          android:textColor="@color/textcolor"
+                          android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="70" android:id="@+id/tv200L1"
+                          android:gravity="center"
+                          android:maxLength="4"
+                />
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="horizontal" android:weightSum="100"
+                          android:id="@+id/ll200L2">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="30" android:text="@string/second_semester"
+                          android:textColor="@color/textcolor"
+                          android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="70" android:id="@+id/tv200L2"
+                          android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 300 level -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical" android:id="@+id/ll300L"
+                      android:layout_marginTop="@dimen/twenty">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="@string/level_300" android:layout_gravity="center" android:textSize="19sp"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="horizontal" android:weightSum="100"
+                          android:id="@+id/ll300L1">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="30" android:text="@string/first_semester"
+                          android:textColor="@color/textcolor"
+                          android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="70" android:id="@+id/tv300L1"
+                          android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="horizontal" android:weightSum="100"
+                          android:id="@+id/ll300L2">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="30" android:text="@string/second_semester"
+                          android:textColor="@color/textcolor"
+                          android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="70" android:id="@+id/tv300L2"
+                          android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 400 level -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical" android:id="@+id/ll400L"
+                      android:layout_marginTop="@dimen/twenty">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="@string/level_400" android:layout_gravity="center" android:textSize="19sp"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="horizontal" android:weightSum="100"
+                          android:id="@+id/ll400L1">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="30" android:text="@string/first_semester"
+                          android:textColor="@color/textcolor"
+                          android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="70" android:id="@+id/tv400L1"
+                          android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="horizontal" android:weightSum="100"
+                          android:id="@+id/ll400L2">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="30" android:text="@string/second_semester"
+                          android:textColor="@color/textcolor"
+                          android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="70" android:id="@+id/tv400L2"
+                          android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 500 level -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical" android:id="@+id/ll500L"
+                      android:layout_marginTop="@dimen/twenty">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="@string/level_500" android:layout_gravity="center" android:textSize="19sp"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="horizontal" android:weightSum="100"
+                          android:id="@+id/ll500L1">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="30" android:text="@string/first_semester"
+                          android:textColor="@color/textcolor"
+                          android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="70" android:id="@+id/tv500L1"
+                          android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="horizontal" android:weightSum="100"
+                          android:id="@+id/ll500L2">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="30" android:text="@string/second_semester"
+                          android:textColor="@color/textcolor"
+                          android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="70" android:id="@+id/tv500L2"
+                          android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 600 level -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical" android:id="@+id/ll600L"
+                      android:layout_marginTop="@dimen/twenty">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="@string/level_600" android:layout_gravity="center" android:textSize="19sp"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="horizontal" android:weightSum="100"
+                          android:id="@+id/ll600L1">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="30" android:text="@string/first_semester"
+                          android:textColor="@color/textcolor"
+                          android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="70" android:id="@+id/tv600L1"
+                          android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="horizontal" android:weightSum="100"
+                          android:id="@+id/ll600L2">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="30" android:text="@string/second_semester"
+                          android:textColor="@color/textcolor"
+                          android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="70" android:id="@+id/tv600L2"
+                          android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 700 level -->
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical" android:id="@+id/ll700L"
+                      android:layout_marginTop="@dimen/twenty">
+            <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                      android:text="@string/level_700" android:layout_gravity="center" android:textSize="19sp"/>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="horizontal" android:weightSum="100"
+                          android:id="@+id/ll700L1">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="30" android:text="@string/first_semester"
+                          android:textColor="@color/textcolor"
+                          android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="70" android:id="@+id/tv700L1"
+                          android:gravity="center"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="horizontal" android:weightSum="100"
+                          android:id="@+id/ll700L2">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="30" android:text="@string/second_semester"
+                          android:textColor="@color/textcolor"
+                          android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:layout_weight="70" android:id="@+id/tv700L2"
+                          android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

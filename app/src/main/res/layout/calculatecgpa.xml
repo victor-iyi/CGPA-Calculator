@@ -1,0 +1,265 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity" android:background="@color/white">
+
+    <include layout="@layout/app_bar" android:id="@+id/app_bar"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+                android:layout_below="@id/app_bar" android:id="@+id/svCGPAlayout"
+                android:layout_marginBottom="40dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:orientation="vertical" android:padding="@dimen/margin">
+
+            <!-- 100 level -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical" android:id="@+id/ll100L"
+                          android:layout_marginTop="@dimen/twenty">
+                <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                          android:text="@string/level_100" android:layout_gravity="center" android:textSize="19sp"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:orientation="horizontal" android:weightSum="100"
+                              android:id="@+id/ll100L1">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="30" android:text="@string/first_semester"
+                              android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="70" android:id="@+id/et100L1"
+                              android:inputType="numberDecimal" android:gravity="center"
+                              android:maxLength="4"
+                    />
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:orientation="horizontal" android:weightSum="100"
+                              android:id="@+id/ll100L2">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="30" android:text="@string/second_semester"
+                              android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="70" android:id="@+id/et100L2"
+                              android:inputType="numberDecimal" android:gravity="center"
+                              android:maxLength="4"
+                    />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 200 level -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical" android:id="@+id/ll200L"
+                          android:layout_marginTop="@dimen/twenty">
+                <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                          android:text="@string/level_200" android:layout_gravity="center" android:textSize="19sp"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:orientation="horizontal" android:weightSum="100"
+                              android:id="@+id/ll200L1">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="30" android:text="@string/first_semester"
+                              android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="70" android:id="@+id/et200L1"
+                              android:inputType="numberDecimal" android:gravity="center"
+                              android:maxLength="4"
+                    />
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:orientation="horizontal" android:weightSum="100"
+                              android:id="@+id/ll200L2">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="30" android:text="@string/second_semester"
+                              android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="70" android:id="@+id/et200L2"
+                              android:inputType="numberDecimal" android:gravity="center"
+                              android:maxLength="4"
+                    />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 300 level -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical" android:id="@+id/ll300L"
+                          android:layout_marginTop="@dimen/twenty">
+                <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                          android:text="@string/level_300" android:layout_gravity="center" android:textSize="19sp"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:orientation="horizontal" android:weightSum="100"
+                              android:id="@+id/ll300L1">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="30" android:text="@string/first_semester"
+                              android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="70" android:id="@+id/et300L1"
+                              android:inputType="numberDecimal" android:gravity="center"
+                              android:maxLength="4"
+                    />
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:orientation="horizontal" android:weightSum="100"
+                              android:id="@+id/ll300L2">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="30" android:text="@string/second_semester"
+                              android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="70" android:id="@+id/et300L2"
+                              android:inputType="numberDecimal" android:gravity="center"
+                              android:maxLength="4"
+                    />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 400 level -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical" android:id="@+id/ll400L"
+                          android:layout_marginTop="@dimen/twenty">
+                <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                          android:text="@string/level_400" android:layout_gravity="center" android:textSize="19sp"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:orientation="horizontal" android:weightSum="100"
+                              android:id="@+id/ll400L1">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="30" android:text="@string/first_semester"
+                              android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="70" android:id="@+id/et400L1"
+                              android:inputType="numberDecimal" android:gravity="center"
+                              android:maxLength="4"
+                    />
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:orientation="horizontal" android:weightSum="100"
+                              android:id="@+id/ll400L2">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="30" android:text="@string/second_semester"
+                              android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="70" android:id="@+id/et400L2"
+                              android:inputType="numberDecimal" android:gravity="center"
+                              android:maxLength="4"
+                    />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 500 level -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical" android:id="@+id/ll500L"
+                          android:layout_marginTop="@dimen/twenty">
+                <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                          android:text="@string/level_500" android:layout_gravity="center" android:textSize="19sp"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:orientation="horizontal" android:weightSum="100"
+                              android:id="@+id/ll500L1">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="30" android:text="@string/first_semester"
+                              android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="70" android:id="@+id/et500L1"
+                              android:inputType="numberDecimal" android:gravity="center"
+                              android:maxLength="4"
+                    />
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:orientation="horizontal" android:weightSum="100"
+                              android:id="@+id/ll500L2">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="30" android:text="@string/second_semester"
+                              android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="70" android:id="@+id/et500L2"
+                              android:inputType="numberDecimal" android:gravity="center"
+                              android:maxLength="4"
+                    />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 600 level -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical" android:id="@+id/ll600L"
+                          android:layout_marginTop="@dimen/twenty">
+                <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                          android:text="@string/level_600" android:layout_gravity="center" android:textSize="19sp"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:orientation="horizontal" android:weightSum="100"
+                              android:id="@+id/ll600L1">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="30" android:text="@string/first_semester"
+                              android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="70" android:id="@+id/et600L1"
+                              android:inputType="numberDecimal" android:gravity="center"
+                              android:maxLength="4"
+                    />
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:orientation="horizontal" android:weightSum="100"
+                              android:id="@+id/ll600L2">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="30" android:text="@string/second_semester"
+                              android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="70" android:id="@+id/et600L2"
+                              android:inputType="numberDecimal" android:gravity="center"
+                              android:maxLength="4"
+                    />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 700 level -->
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                          android:orientation="vertical" android:id="@+id/ll700L"
+                          android:layout_marginTop="@dimen/twenty">
+                <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                          android:text="@string/level_700" android:layout_gravity="center" android:textSize="19sp"/>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:orientation="horizontal" android:weightSum="100"
+                              android:id="@+id/ll700L1">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="30" android:text="@string/first_semester"
+                              android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="70" android:id="@+id/et700L1"
+                              android:inputType="numberDecimal" android:gravity="center"
+                              android:maxLength="4"
+                    />
+                </LinearLayout>
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:orientation="horizontal" android:weightSum="100"
+                              android:id="@+id/ll700L2">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="30" android:text="@string/second_semester"
+                              android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                    <EditText android:layout_width="match_parent" android:layout_height="wrap_content"
+                              android:layout_weight="70" android:id="@+id/et700L2"
+                              android:inputType="numberDecimal" android:gravity="center"
+                              android:maxLength="4"
+                    />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:orientation="horizontal" android:weightSum="100" android:layout_alignParentBottom="true"
+                  android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+
+        <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_weight="50" android:text="@string/calculate" android:id="@+id/bCalculate"/>
+        <Button android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_weight="50" android:text="@string/reset" android:id="@+id/bReset"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menuCalculateCGPA" android:icon="@android:drawable/btn_plus"
+          android:title="@string/calc_cgpa"/>
+
+    <item android:id="@+id/menuCalculateGPA" android:icon="@android:drawable/btn_plus"
+          android:title="@string/calc_gpa"/>
+
+    <item android:id="@+id/menuSavedGPs"
+          android:title="@string/saved_gps"
+          android:icon="@android:drawable/ic_menu_save"/>
+
+    <item android:id="@+id/menuAbout"
+          android:title="@string/about"
+          android:icon="@android:drawable/ic_menu_help"/>
+
+</menu>

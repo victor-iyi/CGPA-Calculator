@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.victor.design.app" >
+
+    <application
+        android:allowBackup="true" android:icon="@mipmap/cgpa_logo"
+        android:label="@string/app_name" android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity" android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- CGPA Page -->
+        <activity
+                android:name=".CGPAPrompt" android:label="@string/app_name" >
+        </activity>
+
+        <!-- GPA Page -->
+        <activity
+                android:name=".CalculateGPA" android:label="@string/app_name" >
+        </activity>
+
+        <!-- About Page -->
+        <activity
+                android:name=".AboutPage" android:label="@string/app_name" >
+        </activity>
+
+        <!-- Saved Page -->
+        <activity
+                android:name=".SavedGPs" android:label="@string/app_name" >
+        </activity>
+
+        <!-- Saved GPA Result -->
+        <activity
+                android:name=".SavedGPAResults" android:label="@string/app_name" >
+        </activity>
+
+        <!-- Saved CGPA Result -->
+        <activity
+                android:name=".SavedCGPAResults" android:label="@string/app_name" >
+        </activity>
+
+        <!-- Calculate CGPA -->
+        <activity
+                android:name=".CalculateCGPA" android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#ff4254</color> <!-- 500 -->
+    <color name="primaryColorDark">#d11d24</color> <!-- 700 -->
+    <color name="colorAccent">#ff5653</color>
+    <color name="profile_background">#de973a</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#666666</color>
+    <color name="textcolor">#ff5c5c</color>
+    <color name="lightgray">#efefef</color>
+    <color name="darkgray">#cdcdcd</color>
+</resources>
